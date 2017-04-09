@@ -1,0 +1,125 @@
+/*Name:Ayush Bashyal
+UN id:17437370 */
+body{
+  background: red;
+  background: linear-gradient(to top,#4d0000,#660000,#800000,#990000,#b30000,#cc0000,#e60000,#ff0000,#ff0000, #e60000, #cc0000,#b30000,#990000,#800000,#660000,#4d0000);
+}
+/*This is the background color for website where color gradiant is used*/
+header img{
+  width:80px;
+  height:80px;
+}
+/*this is use to give a proper size of logo */
+header p{
+  color: #fff000;
+  position: relative;
+  left: 450px;
+  top: -60px;
+  font-size: 2em;
+  text-shadow: 3px 4px 5px cyan;
+}
+ /*this is use to  give the proper properties to the text */
+.BIO{
+  background-color: Green;
+}
+/*This indicate the color for current page*/
+ul{
+  list-style-type: none;
+  padding: 0.5%;
+  margin-left: 60%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+Section p{
+  font-size: 22px;
+  color: black;
+  margin-top: 15%;
+  text-shadow: 1px 1px 1px yellow;
+}
+li a{
+  text-decoration: none;
+  margin-top:-25px;
+  color:pink;
+  padding: 10px 30px;
+  color:white;
+  font-size: 18px;
+}
+
+li:hover a{
+  background:violet;
+  color:indigo;
+}
+section article img{
+  width:600px;
+  height:600px;
+  /* Code to Style the image*/
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-left: 30px;
+  font-style: italic;
+}
+
+
+
+article img{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  transition-duration: 2s ;
+}
+article img:hover{
+  transform: rotate(360deg);
+}
+/*Here is the part of CSS to spin the photo*/
+footer{
+  border: 1px solid violet;
+  color: white;
+  padding: 1.5%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 650px)/*The changes is done according to the requirement of the responsive pages*/
+{
+ul{display: flex;
+  flex-direction: column-reverse;
+  margin-left: 0;
+}
+header p{
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+ul li{
+  padding: 3%;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+.nik {
+  height: 120px;
+  width: 100px;
+}
+input[type=submit]{
+  width: 50%;
+}
+
+  input[type=reset]{
+    width: 50%;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+}

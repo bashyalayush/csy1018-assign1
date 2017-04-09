@@ -1,0 +1,166 @@
+/*Name:Ayush Bashyal
+UN id:17437370 */
+body{
+  background: red;
+  background: linear-gradient(to top,#4d0000,#660000,#800000,#990000,#b30000,#cc0000,#e60000,#ff0000,#ff0000, #e60000, #cc0000,#b30000,#990000,#800000,#660000,#4d0000);
+}
+/*This is the background color for website where color gradiant is used*/
+
+header{
+}
+header img{
+  width:80px;
+  height:80px;
+}
+/*this is use to give a proper size of logo */
+header p{
+  color: #fff000;
+ /*This is used to give the text color of header part */
+  position: relative;
+  left: 450px;
+  top: -60px;
+  font-size: 2em;
+  text-shadow: 3px 4px 5px cyan;
+ /*this is use to  give the proper properties to the text */
+}
+.Contact{
+    background-color: Green;
+}
+/*This indicate the color for current page*/
+ul{
+  list-style-type: none;
+  padding: 0.5%;
+  margin-left: 60%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+ /*this code is to style and placed the Navigation bar in a proper place*/
+li a{
+  text-decoration: none;
+  margin-top:-25px;
+  color:pink;
+  padding: 10px 30px;
+  color:white;
+  font-size: 18px;
+}
+ /*This CSS code is use to add the more fetures in a navigation part*/
+
+.comment{
+  width:100%;
+}
+
+
+li:hover a{
+  background:violet;
+  color:indigo;
+}
+section article img{
+  width:600px;
+  height:600px;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-left: 30px;
+  font-style: italic;
+}
+.nik{
+  border-radius: 60%;
+  height:500px;
+  width:450px;
+}
+
+article img{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  transition-duration: 2s ;
+}
+article img:hover{
+  transform: rotate(360deg);
+}
+footer{
+  border: 1px solid violet;
+  color: white;
+  padding: 1.5%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body{
+  font-size: 20px;
+  font-style: italic;
+  color: snow;
+}
+legend{
+  text-align: center;
+  color: black;
+}
+input[type=submit] {/*this is use to placed the button and style It*/
+    width: 10%;
+    background-color:green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset]{
+  width: 10%;
+  background-color:green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text], select {/*this is used to style the text which will be insidethe box*/
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 650px)/*The changes is done according to the requirement of the responsive pages*/
+{
+ul{display: flex;
+  flex-direction: column-reverse;
+  margin-left: 0;
+}
+header p{
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+ul li{
+  padding: 3%;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+input[type=submit]{
+  width: 50%;
+}
+
+  input[type=reset]{
+    width: 50%;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+}

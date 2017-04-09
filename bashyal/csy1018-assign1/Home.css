@@ -1,0 +1,140 @@
+/*Name:Ayush Bashyal
+UN id:17437370 */
+body{
+  background: red;
+  background: linear-gradient(to top,#4d0000,#660000,#800000,#990000,#b30000,#cc0000,#e60000,#ff0000,#ff0000, #e60000, #cc0000,#b30000,#990000,#800000,#660000,#4d0000);
+}
+/*This is the background color for website where color gradiant is used*/
+
+header{
+}
+header img{
+  width:80px;
+  height:80px;
+}
+/*this is use to give a proper size of logo */
+header p{
+  color: #fff000;
+  /*This is used to give the text color of header part */
+  position: relative;
+  left: 450px;
+  top: -60px;
+  font-size: 2em;
+  text-shadow: 3px 4px 5px cyan;
+  /*this is use to  give the proper properties to the text */
+}
+.home{
+  background-color: Green;
+  }
+  /*This indicate the color for current page*/
+  ul{
+    list-style-type: none;
+    padding: 0.5%;
+    margin-left: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /*this code is to style and placed the Navigation bar in a proper place*/
+  li a{
+    text-decoration: none;
+    margin-top:-25px;
+    color:pink;
+    padding: 10px 30px;
+    color:white;
+    font-size: 18px;
+  }
+  /*This CSS code is use to add the more fetures in a navigation part*/
+
+  li:hover a{
+    background:violet;
+    color:indigo;
+  }
+  /*This properties is used to make a change in colour of navigation button while hover*/
+  section article img{
+    width:600px;
+    height:600px;
+}
+/*this is use to give the appropriate size of the main picture  */
+
+  section{
+    display: flex;
+    flex-direction: row;/*This is for floating the text horizontally*/
+    justify-content: space-between;/*this is for the proper space in both the side*/
+    color: white;
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 29px;
+    color:Black;
+    text-shadow: 2px 2px 2px yellow;
+  }
+  /*Other Decoration of text are also added*/
+  section p{
+    margin-top: 30%;
+    /*this code is used to bring the text to its 30% of its total height */
+  }
+  .nik img{
+    border-radius: 10%;/*this is use to make the pcture curve at its border*/
+    height:500px;
+    width:450px;
+  }
+
+  article img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    transition-duration: 2s ;
+  }
+  /*this is use to decorate the footer image*/
+  article img:hover{
+    transform: rotate(360deg);
+  }
+  /*This is used tpoo rotate the image 360deg while hover*/
+  footer{
+    border: 1px solid violet;
+    color: white;
+    padding: 1.5%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /*This is use to decorate the footer part*/
+  @media (max-width: 650px)/*The changes is done according to the requirement of the responsive pages*/
+  {
+  ul{display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
+  header p{
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  ul li{
+    padding: 3%;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+  section p{
+  margin-top: -10px;
+  margin-left: 10px;
+  }
+  .nik {
+    height: 150px;
+    width: 120px;
+  }
+.nik img{
+  height: 200px;
+  width:200px;
+  margin-top: -10px;
+}
+hr{
+  margin-top: 90px;
+}
+footer{
+}
+}
